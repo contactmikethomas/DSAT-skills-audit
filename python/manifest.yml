@@ -1,0 +1,7 @@
+---
+applications:
+- name: DSAT-skills-audit-py
+  memory: 256MB
+  disk_quota: 2GB
+  buildpack: python_buildpack
+  command: python hello.py
