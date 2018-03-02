@@ -19,7 +19,6 @@ def hello_world():
 		cursor = cnx.cursor(buffered=True)
 		cursor.execute("USE SurveyResults")
 		cursor.execute("SELECT * FROM SurveyResults")
-		return str(cursor.execute(query))
 	except mysql.connector.Error as err:
 		return str(err)
 	else:
