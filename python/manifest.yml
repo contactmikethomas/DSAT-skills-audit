@@ -1,7 +1,7 @@
 ---
 applications:
-- name: DSAT-skills-audit-py
+- name: python-mysql-test
   memory: 256MB
-  disk_quota: 2GB
+  disk_quota: 1G
   buildpack: python_buildpack
   command: python hello.py

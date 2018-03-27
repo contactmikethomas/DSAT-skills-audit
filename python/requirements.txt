@@ -1,0 +1,6 @@
+Flask
+mysql
+mysql-connector-python
+pandas
+matplotlib
+wordcloud
