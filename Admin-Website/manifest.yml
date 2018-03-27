@@ -1,0 +1,5 @@
+---
+application:
+- name: DSAT-skills-audit-admin
+  memory: 128M
+  buildpack: staticfile_buildpack
