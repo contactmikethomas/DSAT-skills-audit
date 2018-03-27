@@ -1,6 +1,5 @@
 ---
 application:
-- name: DSAT-skills-audit-php
+- name: DSAT-skills-audit-php-admin
   memory: 128M
   buildpack: php_buildpack
-  
